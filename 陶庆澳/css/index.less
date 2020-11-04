@@ -1,0 +1,927 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?7kkyc2");
+  src: url("../fonts/icomoon.eot?7kkyc2#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?7kkyc2") format("truetype"),
+    url("../fonts/icomoon.woff?7kkyc2") format("woff"),
+    url("../fonts/icomoon.svg?7kkyc2#icomoon ") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+//广告栏stare
+.choujiang {
+  margin: 0 auto;
+  width: 100%;
+  height: 120px;
+  background-image: url(../img/top/topbar-img.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 120px;
+  background-position: 50%;
+}
+// top导航栏stare
+.toper {
+  width: 100%;
+  height: 40px;
+  background-color: #333;
+  div {
+    margin: 0 auto;
+    width: 1226px;
+    height: 40px;
+    ul li {
+      float: left;
+      margin-left: 8px;
+      height: 40px;
+      font-size: 12px;
+      text-align: center;
+      vertical-align: middle;
+      color: #424242;
+      a:hover {
+        color: #fff;
+      }
+      a {
+        display: inline-block;
+        margin-right: 8px;
+        text-align: center;
+        line-height: 40px;
+        color: #b0b0b0;
+        height: 40px;
+      }
+    }
+    .right_div {
+      float: right;
+      width: 249px;
+      .shop_car {
+        display: inline-block;
+        padding: 0 10px;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+        font-family: icomoon;
+        background-color: #424242;
+        color: #b0b0b0;
+      }
+      .shop_car:hover {
+        color: #ff6700;
+        background-color: #fff;
+      }
+    }
+  }
+}
+// top导航栏结束
+
+//header导航栏stare
+.header {
+  position: relative;
+  margin: 0 auto;
+  width: 1226px;
+  height: 100px;
+  .header-logo {
+    float: left;
+    margin: 45/2px auto;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/footer/xiaomi.png);
+    background-size: 55px 55px;
+  }
+  .header-logo:hover {
+    transition-duration: 0.2s;
+    background-image: url(../img/footer/logo.png);
+    background-size: 110%;
+    background-position: 50%;
+  }
+  .header-nav {
+    position: absolute;
+    left: 234px;
+    ul li {
+      float: left;
+      margin: 0 10px;
+      a {
+        display: inline-block;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        font-size: 16px;
+        color: #333;
+      }
+      a:hover {
+        color: #ff6700;
+      }
+    }
+  }
+  .header-search {
+    margin-top: 24px;
+    float: right;
+    .search {
+      padding: 0 10px;
+      height: 50px;
+      width: 223px;
+      border: 1px solid #e0e0e0;
+      outline: none;
+    }
+    .search:hover {
+      border-width: 2px;
+    }
+    .search:hover + .search-logo {
+      border-width: 2px;
+      border-left-width: 0px;
+      line-height: 47px;
+    }
+    .search:focus {
+      border-color: #ff6700;
+      border-width: 1px;
+    }
+    .search:focus + .search-logo {
+      border-color: #ff6700;
+      border-width: 1px;
+      border-left-width: 0px;
+      line-height: 50px;
+    }
+    .search-logo:hover {
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out;
+      background-color: #ff6700;
+      border-color: #ff6700;
+      color: #fff;
+    }
+    .search-logo {
+      float: right;
+      height: 50px;
+      line-height: 50px;
+      width: 52px;
+      border: 1px solid #e0e0e0;
+      border-left-width: 0px;
+      font-family: icomoon;
+      font-size: 18px;
+      text-align: center;
+      color: #616161;
+    }
+  }
+}
+//header导航栏end
+
+//nav分类导航栏stare
+nav {
+  margin: 0 auto;
+  width: 1226px;
+  height: 460px;
+  position: relative;
+  background-image: url(../img/top/swiper-img4.webp);
+  background-size: 100%;
+  background-repeat: none;
+  .left-sort {
+    float: left;
+    width: 234px;
+    height: 460px;
+    background-color: #424242;
+    background: rgba(105, 101, 101, 0.6);
+    ul {
+      margin-top: 18px;
+      li:hover {
+        background-color: #ff6700;
+      }
+    }
+    ul li {
+      float: left;
+      width: 100%;
+    }
+    ul li a {
+      display: inline-block;
+      margin: 11.3px 30px;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: icomoon;
+      color: #fff;
+    }
+    ul li :nth-child(1) {
+      float: left;
+    }
+    ul li :nth-child(2) {
+      float: right;
+    }
+  }
+  .left-direction,
+  .right-direction {
+    position: absolute;
+    padding: 0 5px;
+    top: 50%;
+    left: 234px;
+    width: 41px;
+    height: 69px;
+    line-height: 69px;
+    margin-top: -35px;
+    z-index: 10;
+    font-family: icomoon;
+    font-size: 30px;
+    a {
+      text-align: center;
+      color: #d5d5d5;
+    }
+    a:hover {
+      color: #fff;
+    }
+  }
+  .right-direction {
+    left: 1185px;
+  }
+  .left-direction:hover,
+  .right-direction:hover {
+    background: rgba(31, 29, 29, 0.3);
+  }
+  .slide-round {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    ul li {
+      cursor: pointer;
+      display: inline-block;
+      margin: 5px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      border: 2px solid #5b5c5d;
+      background-color: #131416;
+    }
+    ul li:hover {
+      background-color: #797a7d;
+    }
+  }
+}
+//nav分类导航栏结束end.
+
+//左侧的分类栏
+.home-sub {
+  margin-top: 14px !important;
+  margin-bottom: 20px !important;
+  height: 170px;
+  .clearfix {
+    float: left;
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+    div {
+      cursor: pointer;
+      position: relative;
+      float: left;
+      width: 234/3px;
+      height: 170/2px;
+      background-image: url(../img/top/mi-miaosha.png);
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: 50% 40%;
+      background-color: rgba(31, 29, 29, 0.3);
+      p {
+        position: absolute;
+        bottom: 16px;
+        margin: 0;
+        width: 234/3px;
+        text-align: center;
+        color: #c3c0bd;
+        font-size: 10px;
+      }
+    }
+    div:hover p {
+      color: #fff;
+    }
+  }
+  .clearfix :nth-child(2) {
+    background-image: url(../img/top/mi-tuangou.png);
+  }
+  .clearfix :nth-child(3) {
+    background-image: url(../img/top/mi-tongdao.png);
+  }
+  .clearfix :nth-child(4) {
+    background-image: url(../img/top/mi-card.png);
+  }
+  .clearfix :nth-child(5) {
+    background-image: url(../img/top/mi-exchange.png);
+  }
+  .clearfix :nth-child(6) {
+    background-image: url(../img/top/mi-chongzhi.png);
+  }
+  .picture {
+    float: right;
+    width: 992px;
+    height: 170px;
+    div {
+      float: left;
+      margin-left: 14.66px;
+      width: 316px;
+      height: 170px;
+      background-image: url(../img/top/redmi-k30.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    div:nth-child(2) {
+      background-image: url(../img/top/redmi-10x.jpg);
+    }
+    div:nth-child(3) {
+      background-image: url(../img/top/redmi-watch.jpg);
+    }
+  }
+}
+//section导航栏stare
+.main {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-bottom: 25px;
+  //每块底部图片栏
+  .common_bottom {
+    margin-top: 15px;
+    height: 120px;
+    background-image: url(../img/main/mi-shangou/mi10.webp);
+    background-size: 100%;
+  }
+  .shangou {
+    .top {
+      margin-top: 5px;
+      height: 58px;
+      .text {
+        float: left;
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 58px;
+        color: #333;
+      }
+      .zhizheng {
+        div {
+          margin-top: 20px;
+          float: right;
+          width: 28px;
+          height: 18px;
+          border: 1px solid #e0e0e0;
+          font-size: 16px;
+          line-height: 16px;
+          transition: color 0.5s;
+          color: #b0b0b0;
+          text-align: center;
+        }
+      }
+    }
+    .row {
+      div {
+        position: relative;
+        float: left;
+        margin-left: 14px;
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+        background-color: #fff;
+        width: 234px;
+        height: 339px;
+      }
+      div:first-child {
+        margin-left: 0;
+        background-image: url(../img/main/mi-shangou/end.jpg);
+        background-repeat: no-repeat;
+        background-size: 101%;
+      }
+      div:nth-child(n + 1) {
+        p {
+          position: absolute;
+          bottom: 83px;
+          left: 50%;
+          transform: translateX(-50%);
+          color: #333;
+          width: 100%;
+          text-align: center;
+          font-size: 14px;
+        }
+        p:nth-child(2) {
+          color: #757575;
+          bottom: 63px;
+          font-size: 13px;
+        }
+        p:nth-child(3) {
+          bottom: 34px;
+          font-size: 13px;
+          span {
+            margin-right: 5px;
+            color: #ff6700;
+          }
+          s {
+            color: #757575;
+          }
+        }
+      }
+      div:nth-child(2) {
+        border-top: 1px solid #1f56e3;
+        background-image: url(../img/main/mi-shangou/erji.webp);
+        background-size: 70%;
+      }
+      div:nth-child(3) {
+        border-top: 1px solid #8fba68;
+        background-image: url(../img/main/mi-shangou/mi-kongtiao.png);
+        background-size: 70%;
+      }
+      div:nth-child(4) {
+        border-top: 1px solid #ffa31e;
+        background-image: url(../img/main/mi-shangou/mi-watch4-black.webp);
+        background-size: 70%;
+      }
+      div:nth-child(5) {
+        border-top: 1px solid #be1a45;
+        background-image: url(../img/main/mi-shangou/mi-watch4-blue.webp);
+        background-size: 70%;
+      }
+    }
+  }
+  .phone {
+    margin-top: 15px;
+    .name {
+      height: 57px;
+      span {
+        height: 57px;
+        float: left;
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 57px;
+        color: #333;
+      }
+      span:nth-child(2) {
+        float: right;
+        a {
+          font-size: 16px;
+          color: #333;
+        }
+        a:first-child:hover {
+          color: #ff6700;
+        }
+      }
+    }
+
+    .picture {
+      .left-phone {
+        float: left;
+        height: 614px;
+        width: 234px;
+        background-image: url(../img/main/phone/mix-alpha.webp);
+        background-size: 100%;
+        margin-top: 0px;
+      }
+      .left-phone:hover {
+        transition-duration: 0.2s;
+        transform: translateY(-1px);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+      }
+      .bolck-phone {
+        float: right;
+        height: 614px;
+        width: 992px;
+        div {
+          position: relative;
+          float: left;
+          margin: 0 0 14px 14px;
+          width: 234px;
+          height: 300px;
+          background-color: #fff;
+          background-repeat: no-repeat;
+          background-size: 70%;
+          background-position: 50% 20%;
+          section {
+            p {
+              position: absolute;
+              bottom: 83px;
+              left: 50%;
+              transform: translateX(-50%);
+              color: #333;
+              width: 100%;
+              text-align: center;
+              font-size: 14px;
+            }
+            p:nth-child(2) {
+              color: #757575;
+              bottom: 63px;
+              font-size: 13px;
+            }
+            p:nth-child(3) {
+              bottom: 34px;
+              font-size: 13px;
+              margin-right: 5px;
+              color: #ff6700;
+            }
+          }
+        }
+        div:hover {
+          transition-duration: 0.2s;
+          transform: translateY(-1px);
+          box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+        }
+        div:nth-child(1) {
+          background-image: url(../img/main/phone/mi10-zhizun.webp);
+        }
+        div:nth-child(2) {
+          background-image: url(../img/main/phone/redmi-k30pro-jujiao.webp);
+        }
+        div:nth-child(3) {
+          background-image: url(../img/main/phone/redmi-k30.webp);
+        }
+        div:nth-child(4) {
+          background-image: url(../img/main/phone/heisha3s.webp);
+        }
+        div:nth-child(5) {
+          background-image: url(../img/main/phone/redmi-9a.webp);
+        }
+        div:nth-child(6) {
+          background-image: url(../img/main/phone/mi10-young.webp);
+        }
+        div:nth-child(7) {
+          background-image: url(../img/main/phone/mi10.webp);
+        }
+        div:nth-child(8) {
+          background-image: url(../img/main/phone/redmi-k30pro.webp);
+        }
+      }
+      .common_bottom {
+        background-image: url(../img/main/phone/redmi-tv.webp);
+      }
+    }
+  }
+  .jiadian {
+    .name span a {
+      margin-left: 10px;
+    }
+    .name span a:first-child {
+      color: #ff6700;
+    }
+    .name span a:nth-child(2):hover {
+      color: #ff6700;
+    }
+    .name span a:nth-child(2):hover a:first-child {
+      color: #333;
+    }
+    .picture .left-phone:hover {
+      transform: translateY(0);
+      box-shadow: none;
+    }
+    .picture .left-phone {
+      background-image: none;
+      div {
+        margin-bottom: 14px;
+        height: 300px;
+      }
+
+      div:first-child {
+        background-image: url(../img/main/jiadian/redmi-tv-x65.webp);
+        background-size: 100%;
+      }
+      div:first-child:hover {
+        transform: translateY(-1px);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      }
+      div:nth-child(2):hover {
+        transform: translateY(-1px);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      }
+      div:nth-child(2) {
+        background-image: url(../img/main/jiadian/redmi-tv-a4.webp);
+        background-size: 100%;
+      }
+    }
+    .picture .bolck-phone {
+      div:nth-child(1) {
+        background-image: url(../img/main/jiadian/img1.webp);
+      }
+      div:nth-child(2) {
+        background-image: url(../img/main/jiadian/img2.webp);
+      }
+      div:nth-child(3) {
+        background-image: url(../img/main/jiadian/img3.webp);
+      }
+      div:nth-child(4) {
+        background-image: url(../img/main/jiadian/img4.jpg);
+      }
+      div:nth-child(5) {
+        background-image: url(../img/main/jiadian/img5.webp);
+      }
+      div:nth-child(6) {
+        background-image: url(../img/main/jiadian/img6.webp);
+      }
+      div:nth-child(7) {
+        background-image: url(../img/main/jiadian/img7.webp);
+      }
+      div:nth-child(8):hover {
+        transform: translateY(0);
+        box-shadow: none;
+      }
+      div:nth-child(8) {
+        background-image: none;
+        background-color: #f5f5f5;
+        section {
+          position: relative;
+          height: 143px;
+          margin-bottom: 14px;
+          background-image: url(../img/main/jiadian/img8.webp);
+          background-color: #fff;
+          background-position: 80% 50%;
+          background-size: 35%;
+          background-repeat: no-repeat;
+          p {
+            position: absolute;
+          }
+        }
+        section:first-child {
+          p:first-child {
+            top: 42px;
+            left: 68px;
+          }
+          p:nth-child(2) {
+            top: 70px;
+            left: 45px;
+            color: #ff6700;
+          }
+        }
+        section:first-child:hover {
+          transform: translateY(-1px);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        section:nth-child(2):hover {
+          transform: translateY(-1px);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        section:nth-child(2) {
+          p:first-child {
+            top: 49px;
+            left: 48px;
+          }
+          p:nth-child(2) {
+            top: 73px;
+            left: 34px;
+            font-size: 12px;
+            color: #757575;
+          }
+        }
+        section:nth-child(2) {
+          background-image: url(../img/main/jiadian/more.png);
+          background-size: 25%;
+        }
+      }
+    }
+    .picture .common_bottom {
+      background-image: url(../img/main/jiadian/mi-door-block.webp);
+    }
+  }
+  .video {
+    margin-top: 15px;
+    .name {
+      height: 57px;
+      span {
+        float: left;
+        height: 57px;
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 57px;
+        color: #333;
+      }
+      span:nth-child(2) {
+        float: right;
+        a {
+          font-size: 16px;
+          color: #333;
+        }
+        a:first-child:hover {
+          color: #ff6700;
+        }
+      }
+    }
+    .main {
+      height: 285px;
+      a {
+        position: relative;
+        float: left;
+        margin-left: 14px;
+        margin-top: 3px;
+        width: 296px;
+        height: 285px;
+        font-size: 14px;
+        color: #333;
+        background-color: #fff;
+        div {
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 100%;
+        }
+        span {
+          position: absolute;
+          top: 210px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+      a:first-child {
+        margin-left: 0;
+        div {
+          height: 180px;
+          background-image: url(../img/main/video/img1.webp);
+        }
+      }
+      a:nth-child(2) {
+        div {
+          height: 180px;
+          background-image: url(../img/main/video/img2.webp);
+        }
+      }
+      a:nth-child(3) {
+        div {
+          height: 180px;
+          background-image: url(../img/main/video/img3.webp);
+        }
+      }
+      a:nth-child(4) {
+        div {
+          height: 180px;
+          background-image: url(../img/main/video/img4.webp);
+        }
+      }
+      a:hover {
+        margin-top: 0;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        transition-duration: 0.4s;
+      }
+    }
+  }
+}
+
+.footer {
+  .servic {
+    height: 79px;
+    div {
+      float: left;
+      width: 20%;
+      padding: 27px 0;
+      border-bottom: solid 1px #e0e0e0;
+      a {
+        img {
+          display: inline-block;
+          width: 25px;
+        }
+        display: inline-block;
+        width: 100%;
+        height: 25px;
+        border-right: 1px solid #e0e0e0;
+        line-height: 25px;
+        text-align: center;
+        font-size: 16px;
+        color: #616161;
+      }
+      a:hover {
+        color: #ff6700;
+      }
+    }
+  }
+  .link {
+    padding: 40px 0;
+    .sort {
+      float: left;
+      width: 974px;
+      height: 171px;
+      div {
+        float: left;
+        width: 16.66666%;
+        h3 {
+          font-size: 14px;
+          color: #424242;
+          margin-bottom: 26px;
+        }
+        a {
+          display: block;
+          font-size: 12px;
+          margin-bottom: 5px;
+          color: #757575;
+        }
+        a:hover {
+          color: #ff6700;
+        }
+      }
+    }
+    .phone {
+      display: inline-block;
+      width: 252px;
+      height: 171px;
+      .relation {
+        height: 111px;
+        border-left: solid 1px #e0e0e0;
+        h3 {
+          margin-bottom: 5px;
+          font-size: 22px;
+          line-height: 1;
+          color: #ff6700;
+          text-align: center;
+        }
+        p {
+          margin: 0 0 5px 0;
+          font-size: 12px;
+          text-align: center;
+          color: #616161;
+        }
+        a {
+          display: inline-block;
+          width: 110px;
+          height: 25px;
+          line-height: 22px;
+          margin: 0 70px;
+          border: 1px solid #ff6700;
+          font-family: icomoon;
+          font-size: 12px;
+          text-align: center;
+          color: #ff6700;
+        }
+        a:hover {
+          background-color: #ff6700;
+          color: #fff;
+        }
+        div {
+          height: 20px;
+          margin: 10px 0 0 70px;
+          p {
+            display: inline-block;
+            font-size: 12px;
+            color: #616161;
+          }
+          span {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+          }
+          span {
+            img {
+              width: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.info {
+  width: 100%;
+  height: 240px;
+  background-color: #fafafa;
+  footer {
+    position: relative;
+    top: 30px;
+    .logo {
+      position: absolute;
+      top: 0px;
+      width: 57px;
+      height: 57px;
+      background-image: url(../img/footer/logo-footer.png);
+      background-size: 100%;
+    }
+    .write {
+      margin-left: 65px;
+      width: 1100px;
+      height: 137px;
+      ul li {
+        float: left;
+        color: #757575;
+        a {
+          margin-left: 5px;
+          font-size: 12px;
+          color: #757575;
+        }
+        a:hover {
+          color: #ff6700;
+        }
+      }
+      p {
+        display: inline-block;
+        width: 1100px;
+        color: #b0b0b0;
+        font-size: 12px;
+      }
+      .prove {
+        width: 1000px;
+        height: 40px;
+        span {
+          float: left;
+          width: 85px;
+          height: 28px;
+          background-image: url(../img/footer/truste.png);
+          background-size: 100%;
+        }
+        span:nth-child(2) {
+          background-image: url(../img/footer/v-logo-1.png);
+        }
+        span:nth-child(3) {
+          background-image: url(../img/footer/v-logo-2.png);
+        }
+        span:nth-child(4) {
+          background-image: url(../img/footer/v-logo-3.png);
+        }
+        span:nth-child(5) {
+          width: 90px;
+          height: 35px;
+          background-image: url(../img/footer/v-logo-4.png);
+        }
+      }
+    }
+  }
+  .text {
+    margin-top: 20px;
+    height: 30px;
+    background-image: url(../img/footer/slogan2020.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+  }
+}

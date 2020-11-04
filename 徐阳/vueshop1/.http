@@ -1,0 +1,22 @@
+@url = http://127.0.0.1:8888/api/private/v1
+@type = Content-Type: application/json
+
+###用户登录的接口
+
+POST {{url}}/login HTTP/1.1
+{{type}}
+
+{
+ "username":"admin",
+ "password":"123456"
+}
+### Tset
+PUT  {{url}}/goods/926 
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2MDQyMzczMTIsImV4cCI6MTYwNDMyMzcxMn0.K8WXtks3Atiog9sBfcYKIr4uZ6ilzkusCIyd6XGY7kQ"
+
+{
+    "goods_name": "【海外购自营】黎珐(ReFa) MTG日本 CARAT铂金微电流瘦脸瘦身提拉紧致V脸美容仪 【保税仓发货】",
+"goods_number": 100,
+"goods_price": 1399,
+"goods_weight": 100
+}

@@ -1,0 +1,392 @@
+.home {
+  display: block;
+  /* height: 3000px; */
+  background-color: #f5f5f5;
+  padding: 4px 0 26px;
+}
+/* 每个模块的标题 */
+.home .box-hd {
+  position: relative;
+  height: 58px;
+  -webkit-font-smoothing: antialiased;
+}
+.home .box-hd .title {
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 58px;
+  color: #333;
+}
+/* 小米闪购部分 */
+.home_flashsale .row {
+  width: 1240px;
+  height: 340px;
+  margin-left: -14px;
+}
+.home_flashsale .thefirst {
+  float: left;
+  width: 234px;
+  height: 340px;
+  margin-left: 14px;
+}
+.home_flashsale .thefirst img {
+  height: 340px;
+}
+.home-flashsale {
+  height: 300px;
+  padding-top: 39px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  /* background: #f1eded; */
+  text-align: center;
+}
+/* 其他盒子 */
+.home_flashsale .ot {
+  float: left;
+  height: 340px;
+  margin-left: 14px;
+}
+.home_flashsale .ot1 img {
+  width: 234px;
+  height: 228px;
+}
+/* 自己做的一个盒子 */
+.ot .ot1 {
+  float: left;
+  width: 234px;
+  height: 340px;
+  border-top: 1px solid pink;
+  background-color: rgb(250, 250, 250);
+}
+/* 标题部分 */
+.ot .ot1 .title {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  margin: 0 10px 2px;
+}
+.ot1 p {
+  text-align: center;
+  margin: 0 10px 10px;
+}
+.ot1 .desc {
+  color: #b0b0b0;
+}
+.ot1 .price {
+  margin-top: 14px;
+  color: #ff6700;
+  font-size: 13px;
+}
+.price .yj {
+  color: #b0b0b0;
+  text-decoration: line-through;
+}
+.ot2,
+.ot3,
+.ot4 {
+  float: left;
+  margin-left: 14px;
+}
+/* 手机 家电 视频三个模块共用 */
+/* banner盒子 */
+.box-banner {
+  height: 120px;
+  margin: 22px 0;
+}
+.box-banner img {
+  width: 100%;
+}
+/* 每个盒子的框架 */
+.box-phones ul li,
+.box-TVs ul li {
+  float: left;
+  width: 234px;
+  height: 300px;
+  padding: 20px 0;
+  margin: 0 0 14px 14px;
+  background-color: #fff;
+}
+/* 标题共用 */
+h3 {
+  display: block;
+}
+/* 插入图片适应盒子 */
+.last a img {
+  width: 100%;
+}
+/* 查看全部 小部件 */
+.home .box-hd {
+  position: relative;
+  height: 58px;
+  /* -webkit-font-smoothing: antialiased; */
+}
+.box-hd .more {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box-hd .more a {
+  font-size: 16px;
+  line-height: 58px;
+  color: #424242;
+}
+.box-hd .more a .arrow-right {
+  width: 12px;
+  height: 12px;
+  padding: 4px;
+  margin-left: 8px;
+  font-size: 12px;
+  line-height: 12px;
+  vertical-align: -1px;
+}
+.box-hd .more a .arrow-right::before {
+  content: "\e665";
+  font-size: 20px;
+}
+.box-hd .more a:hover {
+  color: #ff6700;
+  transition: all 0.4s;
+}
+/* 手机模块 */
+.home_phone {
+  position: relative;
+  width: 1226px;
+  /* 计算得出手机模块的高度 */
+  height: 814px;
+}
+/* 左侧展示图片 */
+.box-mimix {
+  float: left;
+  width: 248px;
+  height: 614px;
+  /* margin: 0 0 -14px -14px; */
+}
+.box-mimix img {
+  height: 100%;
+}
+/* 其他盒子部分 */
+.box-phones {
+  float: left;
+  width: 992px;
+  height: 614px;
+  margin: 0 0 -14px -14px;
+  /* background-color: pink; */
+}
+/* 第一个盒子 */
+.box-phones li .figure-img {
+  margin: 0 37px 18px;
+}
+.box-phones ul li .figure-img img {
+  width: 160px;
+  height: 160px;
+}
+/* 标题部分 */
+.box-phones .title {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  margin: 0 10px 2px;
+}
+.box-phones p {
+  text-align: center;
+  margin: 0 10px 10px;
+}
+.box-phones .desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #b0b0b0;
+}
+.box-phones .price {
+  color: #ff6700;
+  font-size: 13px;
+}
+/* 家电模块 */
+.home_jd {
+  width: 1226px;
+  /* 计算得出家电模块的高度 */
+  height: 814px;
+}
+/* 左侧展示图片 */
+.box-miTV {
+  float: left;
+  width: 248px;
+  height: 614px;
+}
+.box-miTV div {
+  width: 234px;
+  height: 300px;
+  margin-right: 14px;
+}
+.box-miTV .redmi {
+  margin-bottom: 14px;
+}
+.box-miTV img {
+  width: 234px;
+  height: 300px;
+}
+/* 其他家电盒子部分 */
+.box-TVs {
+  float: left;
+  width: 992px;
+  height: 614px;
+  margin: 0 0 -14px -14px;
+}
+/* 第一个盒子 */
+.box-TVs li .figure-img {
+  margin: 0 37px 18px;
+}
+.box-TVs ul li .figure-img img {
+  width: 160px;
+  height: 160px;
+}
+/* 标题部分 */
+.box-TVs .title {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  margin: 0 10px 2px;
+}
+.box-TVs p {
+  text-align: center;
+  margin: 0 10px 10px;
+}
+.box-TVs .desc {
+  color: #b0b0b0;
+}
+.box-TVs .price {
+  color: #ff6700;
+  font-size: 13px;
+}
+/* 特殊的两个last盒子 */
+.box-TVs ul .last {
+  position: relative;
+  height: 143px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+.box-TVs ul .last .figure-img {
+  position: absolute;
+  margin: 0;
+  top: 32px;
+  right: 20px;
+}
+.box-TVs ul .last .figure-img img {
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+.box-TVs ul .last .title {
+  /* width: 94px;
+  height: 42px; */
+  line-height: 21px;
+  margin: -10px 110px 5px 30px;
+  white-space: normal;
+  font-size: 14px;
+  text-align: left;
+  overflow: visible;
+}
+.box-TVs ul .last .price {
+  margin: 0 110px 0 30px;
+  text-align: left;
+}
+.last .more {
+  float: left;
+  display: block;
+  margin: 0 110px 0 30px;
+  font-size: 18px;
+  color: #333;
+}
+.last .more small {
+  float: left;
+  font-size: 12px;
+  color: #757575;
+}
+.last .figure-more {
+  position: absolute;
+  right: 35px;
+  top: 48px;
+  width: 48px;
+  height: 48px;
+  color: #ff6700;
+}
+.last .figure-more i {
+  font-size: 48px;
+  line-height: 48px;
+}
+.last .figure-more i::after {
+  content: "\e665";
+}
+/* 视频模块 */
+.box-videos {
+  width: 1240px;
+  height: 285px;
+}
+
+.box-videos .video-item {
+  position: relative;
+  float: left;
+  width: 296px;
+  height: 285px;
+  margin-left: 14px;
+  margin-bottom: 14px;
+  text-align: center;
+  background: #fff;
+}
+.box-videos .video-item .title {
+  margin: 0 14px 6px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.box-videos .video-item:first-child {
+  margin-left: 0;
+}
+.box-videos ul .figure-img {
+  position: relative;
+  width: 296px;
+  height: 180px;
+  margin-bottom: 28px;
+}
+.box-videos ul .figure-img img {
+  width: 100%;
+}
+.box-videos ul .video-item .icon-play::after {
+  content: "\e609";
+  position: absolute;
+  font-size: 30px;
+  left: 18px;
+  bottom: 0;
+}
+div:hover div {
+  display: block;
+}
+/* 盒子阴影 */
+.box-mimix:hover img,
+.redmi:hover img,
+.mi4a:hover img {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+  z-index: 2;
+}
+.video-item:hover,
+.home_phone li:hover,
+.home_jd li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+}

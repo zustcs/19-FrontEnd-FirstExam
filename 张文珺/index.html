@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>小米商城 - 小米10 Pro、Redmi K30 Pro、小米MIX Alpha，小米电视官方网站</title>
+    <meta name="description"
+      content="小米官网直营小米公司旗下所有产品，包括小米手机系列小米10 Pro 、小米9、小米MIX Alpha，Redmi 红米系列Redmi 10X、Redmi K30，小米电视、笔记本、米家智能家居等，同时提供小米客户服务及售后支持." />
+    <meta name="keywords" content="小米,redmi,小米10,Redmi 10X,小米MIX Alpha,小米商城" />
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+</head>
+    
+<body>
+    <div class="header">
+        <div class="topbarBanner">
+            <a href=""></a>
+        </div>
+        <div class="site-topbar">
+            <div class="container">
+                <div class="topbar-nav fl">
+                    <a href="http:////www.mi.com/index.html" target="_blank">小米商城</a>
+                    <span>|</span>
+                    <a href="http:////www.miui.com/" target="_blank">MIUI</a>
+                    <span>|</span>
+                    <a href="http:////iot.mi.com" target="_blank">loT</a>
+                    <span>|</span>
+                    <a href="http:////i.mi.com/" target="_blank">云服务</a>
+                    <span>|</span>
+                    <a href="http:////jr.mi.com?from=micom" target="_blank">天星数科</a>
+                    <span>|</span>
+                    <a href="http:////youpin.mi.com/" target="_blank">有品</a>
+                    <span>|</span>
+                    <a href="http:////xiaoai.mi.com/" target="_blank">小爱开放平台</a>
+                    <span>|</span>
+                    <a href="http:////qiye.mi.com/" target="_blank">企业团购</a>
+                    <span>|</span>
+                    <a href="http:////www.mi.com/aptitude/list/?id=41" target="_blank">资质证照</a>
+                    <span>|</span>
+                    <a href="http:////www.mi.com/aptitude/list/" target="_blank">协议规则</a>
+                    <span>|</span>
+                    <a href="javascript:;">Select Location</a>
+                </div>
+                <div class="fr">
+                    <a href="javascript:;">登录</a>
+                    <span>|</span>
+                    <a href="javascript:;">注册</a>
+                    <span>|</span>
+                    <a href="javascript:;">消息通知</a>
+                    <a href="" class="topbar-cart">
+                        <em class="iconfont icon-che"></em>
+                        购物车 (0)
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="site-header container">
+            <div class="header-logo">
+                <a href="index.html" title="小米官网">
+                    <img src="img/top/mi-logo.png" alt="">
+                    小米官网
+                </a>
+            </div>
+            <div class="header-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="">小米手机</a>
+                    </li>
+                    <li>
+                        <a href="">Redmi红米</a>
+                    </li>
+                    <li>
+                        <a href="">电视</a>
+                    </li>
+                    <li>
+                        <a href="">笔记本</a>
+                    </li>
+                    <li>
+                        <a href="">家电</a>
+                    </li>
+                    <li>
+                        <a href="">路由器</a>
+                    </li>
+                    <li>
+                        <a href="">智能硬件</a>
+                    </li>
+                    <li>
+                        <a href="">服务</a>
+                    </li>
+                    <li>
+                        <a href="">社区</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-search">
+                <form action="">
+                    <input type="search" name="" id="" class="search-text">
+                    <input type="submit" value="&#xe605;" class="search-btn iconfont">  <!-- input内的icon用unicode形式 -->
+                </form>
+            </div>                
+        </div>
+        <script>
+            var headerSearch = document.querySelector('.header-search');
+            var searchText = headerSearch.querySelector('.search-text');
+            var searchBtn = headerSearch.querySelector('.search-btn');
+            headerSearch.addEventListener('focus', function() {
+                searchText.style.borderColor = '#ff6700';
+                searchBtn.style.borderColor = '#ff6700';
+            })
+            headerSearch.addEventListener('blur', function() {
+                searchText.style.borderColor = '#b0b0b0';
+                searchBtn.style.borderColor = '#b0b0b0';
+            })
+        </script>
+    </div>
+    <div class="home-hero-container container">
+        <div class="home-hero-swiper clearfix">
+            <div class="site-category">
+                <ul class="site-category-list">
+                    <li class="category-item">
+                        <a href="" class="title">
+                            手机 电话卡
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="title">
+                            电视 盒子
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="title">
+                            笔记本 显示器
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="title">
+                            家电 插线板
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="title">
+                            出行 穿戴
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="title">
+                            智能 路由器
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="title">
+                            电源 配件
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="title">
+                            健康 儿童
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="title">
+                            耳机 音箱
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="title">
+                            生活 箱包
+                            <em class="fr"></em>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-prev"></div>
+            <div class="btn-next"></div>
+        </div>
+        <div class="home-hero-sub">
+            <div class="w234">
+                <ul class="home-channel-list clearfix">
+                    <li>
+                        <a href="">
+                            <img src="img/top/mi-miaosha.png" alt="小米秒杀">
+                            小米秒杀
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/top/mi-tuangou.png" alt="小米秒杀">
+                            企业团购
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/top/mi-tongdao.png" alt="小米秒杀">
+                            F码通道
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/top/mi-card.png" alt="小米秒杀">
+                            米粉卡
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/top/mi-exchange.png" alt="小米秒杀">
+                            以旧换新
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/top/mi-chongzhi.png" alt="小米秒杀">
+                            话费充值
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w978">
+                <ul class="home-promo-list clearfix">
+                    <li>
+                        <a href=""><img src="img/top/redmi-k30.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="img/top/redmi-10x.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="img/top/redmi-watch.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="home-main">
+        <div class="container">
+            <div class="home-flashsale xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">小米闪购</h2>
+                    <div class="swiper-controls">
+                        <span class="swiper-flashsale-prev iconfont icon-arrow-lef"></span>
+                        <span class="swiper-flashsale-next iconfont icon-jiantou1"></span>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="flashsale-countdown w234">
+                        <div class="round">14:00场</div>
+                        <img src="img/main/mi-shangou/下载.png" alt="">
+                        <div class="desc">距离结束还有</div>
+                        <div class="countdown">
+                            <span class="hour"></span>
+                            <i>:</i>
+                            <span class="minute"></span>
+                            <i>:</i>
+                            <span class="second"></span>
+                        </div>
+                    </div>
+                    <script>
+                        var hour = document.querySelector('.hour');
+                        var minute = document.querySelector('.minute');
+                        var second = document.querySelector('.second');
+                        var inputTime = +new Date('2020-11-1 17:00:00');
+                        countDown();  //先调用一次函数，防止第一次刷新页面有空白
+                        //开启定时器
+                        setInterval(countDown, 1000);
+                        function countDown(time) {
+                            var nowTime = +new Date();  //当前时间总的毫秒数    
+                            var times = (inputTime - nowTime) / 1000;  //times是剩余时间总的秒数
+                            var h = parseInt(times / 60 / 60 % 24);  //时
+                            h = h < 10 ? '0' + h : h; 
+                            hour.innerHTML = h;
+                            var m = parseInt(times / 60 % 60);  //分
+                            m = m < 10 ? '0' + m : m; 
+                            minute.innerHTML = m;
+                            var s = parseInt(times % 60);  //秒
+                            s = s < 10 ? '0' + s : s; 
+                            second.innerHTML = s;
+                        }
+                    </script>
+                    <div class="flashsale-list w978">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide rainbow-item-1">
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="thumb">
+                                            <img src="img/main/mi-shangou/erji.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                            <del>169元</del>
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide rainbow-item-2">
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="thumb">
+                                            <img src="img/main/mi-shangou/mi-kongtiao.png" alt="" width="160" height="160">
+                                        </div>
+                                        <h3 class="title">定频 | 米家互联网空调 1.5匹</h3>
+                                        <p class="desc">出众静音，快速制冷热</p>
+                                        <p class="price">
+                                            <span>1799</span>
+                                            元
+                                            <del>1899元</del>
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide rainbow-item-3">
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="thumb">
+                                            <img src="img/main/mi-shangou/mi-watch4-black.webp" alt="" width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米头戴式蓝牙耳机 黑色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                            <del>169元</del>
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide rainbow-item-4">
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="thumb">
+                                            <img src="img/main/mi-shangou/mi-watch4-blue.webp" alt="" width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米头戴式蓝牙耳机 黑色</h3>
+                                        <p class="desc">随时随地畅听好声音</p>
+                                        <p class="price">
+                                            <span>199</span>
+                                            元
+                                            <del>299元</del>
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="home-banner-box">
+                <a href="">
+                    <img src="img/main/mi-shangou/mi10.webp" alt="" width="1226" height="120">
+                </a>
+            </div>
+            <div class="home-brick-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">手机</h2>
+                    <div class="more">
+                        <a href="" class="more-link">
+                            查看全部
+                            <i class="iconfont icon-jiantou"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="w234">
+                        <ul class="brick-promo-list">
+                            <li class="brick-item brick-item-l">
+                                <a href="">
+                                    <img src="img/main/phone/mix-alpha.webp" alt="" width="234" height="614">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w978">
+                        <ul class="brick-list clearfix">
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/phone/mi10.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/phone/mi10-young.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/phone/heisha3s.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/phone/mi10-zhizun.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/phone/redmi-9a.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/phone/redmi-k30.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/phone/redmi-k30pro-jujiao.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/phone/redmi-k30pro.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="home-banner-box">
+                <a href="">
+                    <img src="img/main/phone/redmi-tv.webp" alt="" width="1226" height="120">
+                </a>
+            </div>
+            <div class="home-brick-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">家电</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-active">热门</li>
+                            <li>电视影音</li>
+                        </ul>
+                        </a>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="w234">
+                        <ul class="brick-promo-list">
+                            <li class="brick-item  brick-item-m">
+                                <a href="">
+                                    <img src="img/main/jiadian/redmi-tv-a4.webp" alt="" width="234" height="300">
+                                </a>
+                            </li>
+                            <li class="brick-item  brick-item-m">
+                                <a href="">
+                                    <img src="img/main/jiadian/redmi-tv-x65.webp" alt="" width="234" height="300">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w978">
+                        <ul class="brick-list clearfix">
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/jiadian/img1.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/jiadian/img2.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/jiadian/img3.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/jiadian/img4.jpg" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/jiadian/img5.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/jiadian/img6.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-m brick-item-m-2">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/jiadian/img7.webp" alt=""  width="160" height="160">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="desc">我的私人KTV</p>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-s">  <!-- 这里的层叠关系不是很懂 -->
+                                <a href="" target="_blank">
+                                    <div class="content">
+                                        <div class="figure figure-img">
+                                            <img src="img/main/jiadian/img8.webp" alt=""  width="80" height="80">
+                                        </div>
+                                        <h3 class="title">小米有线耳机（K歌版） 白色</h3>
+                                        <p class="price">
+                                            <span>149</span>
+                                            元
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="brick-item brick-item-s">
+                                <a href="">
+                                    <div class="figure figure-more">
+                                        <i class="iconfont icon-jiantou"></i>
+                                    </div>
+                                    <div class="more">
+                                        浏览更多
+                                        <small>热门</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="home-banner-box">
+                <a href="">
+                    <img src="img/main/jiadian/mi-door-block.webp" alt="" width="1226" height="120">
+                </a>
+            </div>
+            <div class="home-video-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">
+                        视频
+                    </h2>
+                    <div class="more">
+                        <a href="" class="more-link">
+                            查看全部
+                            <i class="iconfont icon-jiantou"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box-bd">
+                    <ul class="video-list clearfix">
+                        <li class="video-item">
+                            <a href="" target="_blank">
+                                <div class="figure figure-img">
+                                    <img src="img/main/video/img1.webp" alt=""  width="290" height="180">
+                                    <span class="play">
+                                        <i class="iconfont icon-jiantou1"></i>
+                                    </span>
+                                </div>
+                                <h3 class="title">
+                                    Redmi 10X系列发布会
+                                </h3>
+                                <p class="desc">
+                                    Redmi 10X系列发布会
+                                </p>
+                            </a>
+                        </li>
+                        <li class="video-item">
+                            <a href="" target="_blank">
+                                <div class="figure figure-img">
+                                    <img src="img/main/video/img2.webp" alt=""  width="290" height="180">
+                                    <span class="play">
+                                        <i class="iconfont icon-jiantou1"></i>
+                                    </span>
+                                </div>
+                                <h3 class="title">
+                                    小米10青春版发布会
+                                </h3>
+                            </a>
+                        </li>
+                        <li class="video-item">
+                            <a href="" target="_blank">
+                                <div class="figure figure-img">
+                                    <img src="img/main/video/img3.webp" alt=""  width="290" height="180">
+                                    <span class="play">
+                                        <i class="iconfont icon-jiantou1"></i>
+                                    </span>
+                                </div>
+                                <h3 class="title">
+                                    小米10 8K手机拍大片
+                                </h3>
+                            </a>
+                        </li>
+                        <li class="video-item">
+                            <a href="" target="_blank">
+                                <div class="figure figure-img">
+                                    <img src="img/main/video/img4.webp" alt=""  width="290" height="180">
+                                    <span class="play">
+                                        <i class="iconfont icon-jiantou1"></i>
+                                    </span>
+                                </div>
+                                <h3 class="title">
+                                    小米10发布会
+                                </h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="site-footer">
+            <div class="container">
+                <div class="footer-service">
+                    <ul class="list-service clearfix">
+                        <li>
+                            <a href="" target="_blank">
+                                <em class="iconfont icon-sousuo"></em>
+                                预约维修服务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <em class="iconfont icon-icon1460357632931"></em>
+                                7天无理由退货
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <em class="iconfont icon-tian"></em>
+                                15天免费换货
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <em class="iconfont icon-liwu"></em>
+                                满99元包邮
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <em class="iconfont icon-didian"></em>
+                                520余家售后网点
+                            </a>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links clearfix">
+                    <dl class="col-links">
+                        <dt>帮助中心</dt>
+                        <dd><a href="" class="_blank">账户管理</a></dd>
+                        <dd><a href="" class="_blank">购物指南</a></dd>
+                        <dd><a href="" class="_blank">订单操作</a></dd>
+                    </dl>
+                    <dl class="col-links">
+                        <dt>服务支持</dt>
+                        <dd><a href="" class="_blank">售后政策</a></dd>
+                        <dd><a href="" class="_blank">自助服务</a></dd>
+                        <dd><a href="" class="_blank">相关下载</a></dd>
+                    </dl>
+                    <dl class="col-links">
+                        <dt>线下门店</dt>
+                        <dd><a href="" class="_blank">小米之家</a></dd>
+                        <dd><a href="" class="_blank">服务网点</a></dd>
+                        <dd><a href="" class="_blank">授权体验店</a></dd>
+                    </dl>
+                    <dl class="col-links">
+                        <dt>关于小米</dt>
+                        <dd><a href="" class="_blank">了解小米</a></dd>
+                        <dd><a href="" class="_blank">加入小米</a></dd>
+                        <dd><a href="" class="_blank">投资者关系</a></dd>
+                        <dd><a href="" class="_blank">企业社会责任</a></dd>
+                        <dd><a href="" class="_blank">廉洁举报</a></dd>
+                    </dl>
+                    <dl class="col-links">
+                        <dt>关注我们</dt>
+                        <dd><a href="" class="_blank">新浪微博</a></dd>
+                        <dd><a href="" class="_blank">官方微信</a></dd>
+                        <dd><a href="" class="_blank">联系我们</a></dd>
+                        <dd><a href="" class="_blank">公益基金会</a></dd>
+                    </dl>
+                    <dl class="col-links">
+                        <dt>特色服务</dt>
+                        <dd><a href="" class="_blank">F码通道</a></dd>
+                        <dd><a href="" class="_blank">礼物码</a></dd>
+                        <dd><a href="" class="_blank">防伪查询</a></dd>
+                    </dl>
+                    <div class="col-contact">
+                        <p class="phone">400-100-5678</p>
+                        <p>8:00-18:00（仅收市话费）</p>
+                        <a href="" class="contact-btn">
+                            <em class="iconfont icon-rengongkefu1"></em>
+                            人工服务
+                        </a>
+                        <div class="follow">
+                            关注小米：
+                            <a href="" class="iconfont icon-weibo" target="_blank"></a>
+                            <a href="" class="iconfont icon-weixin"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-info">
+            <div class="container">
+                <div class="logo"></div>
+                <div class="info-text">
+                    <p class="sites">
+                        <a href="" target="_blank">小米商城</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">MIUI</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">米家</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">米聊</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">多看</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">游戏</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">政企服务</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">小米天猫店</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">小米集团隐私政策</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">小米公司儿童信息保护规则</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">小米商城隐私政策</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">小米商城用户协议</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">问题反馈</a>
+                        <span class="sep">|</span>
+                        <a href="" target="_blank">Select Location</a>
+                    </p>
+                    <p>
+                        ©
+                        <a href="" target="_blank">mi.com</a>
+                        京ICP证110507号
+                        <a href="" target="_blank">京ICP备10046444号</a>
+                        <a href="" target="_blank">京公网安备11010802020134号</a>
+                        <a href="" target="_blank">京网文[2020]0276-042号</a>
+                        <br>
+                        <a href="" target="_blank">（京）网械平台备字（2018）第00005号</a>
+                        <a href="" target="_blank">互联网药品信息服务资格证 (京)-非经营性-2014-0090</a>
+                        <a href="" target="_blank">营业执照</a>
+                        <a href="" target="_blank">医疗器械质量公告</a>
+                        <br>
+                        <a href="" target="_blank">增值电信业务许可证</a>
+                        网络食品经营备案 京食药网食备202010048  
+                        <a href="" target="_blank">食品经营许可证</a>
+                        <br>
+                        违法和不良信息举报电话：171-5104-4404
+                        <a href="" target="_blank">知识产权侵权投诉</a> 
+                        本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                        
+                    </p>
+                </div>
+                <div class="info-links">
+                    <a href="" target="_blank">
+                        <img src="img/footer/truste.png" alt="">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="img/footer/v-logo-1.png" alt="">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="img/footer/v-logo-2.png" alt="">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="img/footer/v-logo-2.png" alt="">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="img/footer/v-logo-4.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="slogan">探索黑科技，小米为发烧而生</div>
+        </div>
+        
+    </div>
+    <div class="home-tool-bar">
+        <a href="" class="item">
+            <em class="iconfont icon-weixiu"></em>
+            售后服务
+        </a>
+        <a href="" class="item">
+            <em class="iconfont icon-rengongkefu"></em>
+            人工客服
+        </a>
+        <a href="" class="item">
+            <em class="iconfont icon-che"></em>
+            购物车
+        </a>
+        <a href="" class="item" id="slider-top">
+            <em class="iconfont icon-top"></em>
+            回顶部
+        </a>
+        <script>
+            var sliderTop = document.getElementById('slider-top');
+            document.addEventListener('scroll', function() {
+                if (window.pageYOffset <= 800) {
+                    sliderTop.style.display = 'none';
+                } else {
+                    sliderTop.style.display = 'block';
+                }
+            })
+        </script>
+    </div>
+</body>
+
+</html>

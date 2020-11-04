@@ -1,0 +1,547 @@
+/* topbar start */
+
+.topbar {
+    width: 100%;
+    height: 120px;
+    background-image: url(../img/top/topbar-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 120px;
+}
+
+
+/* shortcut start  */
+
+.shortcut {
+    height: 40px;
+    font-size: 12px;
+    background: #333;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut a {
+    color: #b0b0b0;
+    line-height: 40px;
+}
+
+.shortcut ul li a:hover {
+    color: #fff;
+}
+
+.shopcar a:hover {
+    color: #ff6700;
+}
+
+.shortcut ul li span {
+    color: #424242;
+    margin: 6.2px;
+}
+
+.shortcut_l {
+    width: 794px;
+}
+
+.shopcar {
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    text-align: center;
+    color: #b0b0b0;
+    /* background-color: ; */
+    background: #424242 url(../img/top/cart.png) no-repeat;
+    background-position: 10px center;
+    background-size: 20px 15px;
+}
+
+
+/* header start  */
+
+.header {
+    overflow: hidden;
+    height: 100px;
+}
+
+
+/* logo */
+
+.logo {
+    overflow: hidden;
+    width: 55px;
+}
+
+.logo1,
+.logo2 {
+    width: 55px;
+    height: 55px;
+    margin: 22.5px 0;
+    background-color: #ff6700;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo1 {
+    position: absolute;
+    top: -22.5px;
+    left: -55px;
+    background-image: url(../img/top/mi-home.png);
+}
+
+.logo2 {
+    background-image: url(../img/top/mi-logo.png);
+}
+
+@keyframes move {
+    /* 开始状态 */
+    0% {
+        transform: translateX(0px);
+    }
+    /* 结束状态 */
+    100% {
+        transform: translateX(55px);
+    }
+}
+
+.move:hover {
+    /* 动画名称 */
+    animation-name: move;
+    /* 持续时间 */
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+
+/* navitems */
+
+.navitems {
+    width: 678px;
+    height: 88px;
+    padding: 12px 0 0 179px;
+}
+
+.navitems li {
+    float: left;
+}
+
+.navitems li a {
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+    font-size: 16px;
+}
+
+.navitems li a:hover {
+    color: #ff6700;
+}
+
+
+/* search  */
+
+.search {
+    position: relative;
+}
+
+.search-text {
+    position: absolute;
+    top: 25px;
+    right: 52px;
+    width: 223px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    padding: 0 10px;
+    margin: 25 20px;
+    font-size: 14px;
+    line-height: 48px;
+}
+
+.search-btn {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 52px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    background-image: url(../img/top/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+
+/* main start  */
+
+.main {
+    position: relative;
+}
+
+
+/* img  */
+
+img {
+    display: block;
+    width: 1226px;
+    height: 460px;
+}
+
+
+/* category */
+
+.category {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 234px;
+    height: 420px;
+    padding: 20px 0;
+    background: rgba(105, 101, 101, 0.6);
+}
+
+.category ul li a {
+    display: block;
+    color: #fff;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.category ul li a:hover {
+    background-color: #ff6700;
+}
+
+.category ul li a em {
+    float: right;
+    font-family: 'icomoon';
+    font-size: 18px;
+}
+
+
+/* home-hero-sub start  */
+
+.home-hero-sub {
+    display: block;
+    overflow: hidden;
+    margin: 14px 0 0;
+}
+
+
+/* lifeservice   */
+
+.lifeservice {
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+}
+
+.lifeservice ul {
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 69px;
+    height: 82px;
+    padding: 0 3px;
+    border-top: 1px solid #665e57;
+    border-left: 1px solid #665e57;
+}
+
+.lifeservice li a {
+    display: block;
+    padding-top: 18px;
+    color: #fff;
+}
+
+.service-ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto 4px;
+}
+
+.ico-miaosha {
+    background: url(../img/top/mi-miaosha.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.ico-tuangou {
+    background: url(../img/top/mi-tuangou.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.ico-tongdao {
+    background: url(../img/top/mi-tongdao.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.ico-card {
+    background: url(../img/top/mi-card.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.ico-exchange {
+    background: url(../img/top/mi-exchange.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.ico-chongzhi {
+    background: url(../img/top/mi-chongzhi.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+/* span 16 */
+
+.span16 {
+    width: 992px;
+    height: 170px;
+    margin-bottom: 26px;
+}
+
+.span16 li {
+    float: right;
+    width: 316px;
+    height: 170px;
+    padding-left: 14.5px;
+}
+
+.span16 img {
+    display: block;
+    width: 316px;
+    height: 170px;
+}
+
+
+/* page-main start*/
+
+.page-main {
+    padding-top: 4px;
+    padding-bottom: 12px;
+    background: #f5f5f5;
+}
+
+
+/* home-flashsale */
+
+.home-flashsale {
+    height: 398px;
+    margin-bottom: 22px;
+}
+
+.box-hd .title {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.flashsale-countdown img {
+    width: 234px;
+    height: 340px;
+}
+
+.flashSaleList {
+    width: 992px;
+    height: 340px;
+}
+
+.flashSaleList li {
+    float: left;
+    width: 234px;
+    height: 340px;
+    margin-left: 14px;
+    background-color: rgb(250, 250, 250);
+}
+
+.flashSaleList li img {
+    text-align: center;
+    /* width: 234px;
+    height: 226px; */
+    width: 130px;
+    height: 130px;
+    padding: 48px 52px;
+}
+
+.brick-item .title,
+.brick-item-m .title {
+    margin: 0 10px 2px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    overflow: hidden;
+    /* 文本溢出时用省略号表示 */
+    text-overflow: ellipsis;
+    /* 溢出时不换行 */
+    white-space: nowrap;
+    /* 溢出时隐藏 */
+    overflow: hidden;
+}
+
+.brick-item .desc,
+.brick-item-m .desc {
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.brick-item .price,
+.brick-item-m .price {
+    margin: 0 10px 14px;
+    text-align: center;
+}
+
+.brick-item .price .now,
+.brick-item-m .price .now {
+    color: #ff6700;
+}
+
+.brick-item .price .before,
+.brick-item-m .price .before {
+    color: #b0b0b0;
+}
+
+
+/* home-banner-box */
+
+.home-banner-box {
+    height: 120px;
+    margin: 22px 0;
+}
+
+.home-banner-box img {
+    width: 100%;
+    height: 120px;
+}
+
+
+/* home-brick-box */
+
+.brick-promo-list {
+    width: 234px;
+    height: 614px;
+}
+
+.brick-list-item {
+    float: left;
+    width: 234px;
+    background: #fff;
+}
+
+.brick-list-item img {
+    width: 234px;
+    height: 614px;
+}
+
+.brick-list {
+    width: 992px;
+    height: 614px;
+    background-color: pink;
+}
+
+.brick-item-m {
+    float: left;
+    width: 234px;
+    height: 260px;
+    padding: 20px 0;
+    margin: 0 0 14px 14px;
+    background-color: #fff;
+}
+
+.brick-item-m img {
+    width: 160px;
+    height: 160px;
+    padding: 0 37px 18px;
+}
+
+.brick-list-n {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-bottom: 14px;
+    background-color: #fff;
+}
+
+.brick-list-n img {
+    width: 234px;
+    height: 300px;
+}
+
+.brick-item-8 {
+    position: relative;
+    float: left;
+    width: 234px;
+    height: 143px;
+    margin: 0 0 14px 14px;
+    background-color: #fff;
+}
+
+.brick-item-8 img {
+    position: absolute;
+    top: 36.5px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.brick-item-8 .title {
+    width: 94px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.brick-item-8 .title1 {
+    top: 48.5px;
+    width: 94px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.brick-item-8 h3 {
+    position: absolute;
+    top: 43.5px;
+    left: 30px;
+}
+
+.brick-item-8 span {
+    position: absolute;
+    top: 93.5px;
+    left: 30px;
+    color: #ff6700;
+}
+
+.brick-item-8 p {
+    position: absolute;
+    top: 78.5px;
+    left: 30px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+
+/* 文字为 114 */
+
+.kan {
+    height: 200px;
+    background-color: aquamarine;
+}

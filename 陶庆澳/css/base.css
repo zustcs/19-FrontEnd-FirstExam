@@ -1,0 +1,36 @@
+/* 清除所有外边距 */
+
+* {
+  margin: 0 0;
+}
+
+/* 清除所有li的点 */
+
+li {
+  list-style: none;
+}
+
+/* 清除ul的内边距 */
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* 清除a的下划线 */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+a:focus {
+  text-decoration: none;
+}
+
+.w {
+  width: 1226px;
+  margin: 0 auto;
+}

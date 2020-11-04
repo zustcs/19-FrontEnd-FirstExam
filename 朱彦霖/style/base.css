@@ -1,0 +1,140 @@
+/* 把我们所有标签的内外边距清零 */
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+/* em 和 i 斜体的文字不倾斜 */
+em,
+i {
+    font-style: normal
+}
+/* 去掉li 的小圆点 */
+li {
+    list-style: none
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle
+}
+
+button {
+    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ff6700;
+}
+
+button,
+input {
+    /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /* 默认有灰色边框我们需要手动去掉 */
+    border: 0; 
+    outline: none;
+}
+
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+body{
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+.ir{
+    display: block;
+    text-align: left;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+p{
+    display: block;
+}
+.site-header .header-nav{
+    float: left;
+    width: 850px;
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12, .span13, .span14, .span15, .span16, .span17, .span18, .span19, .span20 {
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+u{
+    display: block;
+}
+li{
+    display: block;
+}
+.bgc{
+    background-color: #ff6700;
+}
+.fco{
+    color: #ff6700;
+}
+/* .home-flashsale .flashsale-list .q{
+    float: left;
+    display: block;
+    background-color: #333;
+    width: 978px;
+    height: 360px;
+}
+.home-flashsale .flashsale-list ul .t{
+    float: left;
+    display: block;
+    width: 234px;
+    height: 300px;
+    margin-right: 14px;
+    background-color: pink;
+}
+.home-flashsale .flashsale-list ul .a{
+    margin-right: 0;
+} */
+.brick-item:hover,
+.video-item:hover{
+    z-index: 2;
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    transform: translate3d(0,-2px,0);
+}
+.price{
+    font-size: 13px;
+}
+.price span{
+    color: #ff6700;
+}
+.brick-item-m .price del,
+.brick-item-m .price del span{
+    color: #b0b0b0;
+}

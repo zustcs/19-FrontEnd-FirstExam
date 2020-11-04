@@ -1,0 +1,389 @@
+.page-main {
+    background: #f5f5f5;
+}
+
+.home-main {
+    padding-top: 4px;
+    padding-bottom: 12px;
+}
+
+.row {
+    margin-left: -14px;
+}
+
+
+/* home-flashsale */
+
+.home-flashsale {
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.home-flashsale .box-hd {
+    position: relative;
+    height: 58px;
+}
+
+.box-hd .title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.home-flashsale .flashsale-countdown {
+    height: 341px;
+    background: url(../img/main/mi-shangou/end.jpg) no-repeat;
+    background-size: contain;
+}
+
+.span16 {
+    width: 978px;
+}
+
+.home-flashsale .flashsale-list li {
+    float: left;
+    width: 234px;
+    margin-right: 14px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    text-align: center;
+    background: #fff;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    position: relative;
+    list-style: none;
+}
+
+.home-flashsale .flashsale-list a {
+    position: relative;
+    display: block;
+    height: 300px;
+    padding-top: 39px;
+}
+
+.home-flashsale .flashsale-list a:hover {
+    color: none;
+}
+
+.home-flashsale .flashsale-picture {
+    display: block;
+    width: 160px;
+    margin: 0 auto 22px;
+}
+
+.home-flashsale .flashsale-list h3 {
+    margin: 0 20px 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    color: #212121;
+    overflow: hidden;
+    white-space: nowrap;
+    /* 连续的空白符会被合并。但文本内的换行无效 */
+}
+
+.home-flashsale .flashsale-list .desc {
+    height: 18px;
+    margin: 0 20px 12px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.home-flashsale .flashsale-list .price {
+    margin: 0;
+    color: #ff6709;
+}
+
+
+/* home-banner box */
+
+.home-banner-box {
+    height: 120px;
+    margin: 22px 0;
+    overflow: hidden;
+    background-color: #6cf;
+}
+
+.home-banner-box a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* home-brick-box */
+
+
+/* box-hd */
+
+.home-brick-box .box-hd,
+.home-video-box .box-hd {
+    position: relative;
+}
+
+.home-brick-box .box-hd .title,
+.home-video-box .box-hd {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.home-brick-box .box-hd .more,
+.home-video-box .box-hd {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.home-brick-box .box-hd .more-link,
+.home-video-box .box-hd {
+    line-height: 58px;
+}
+
+.home-brick-box .morelink-arrow,
+.home-video-box .box-hd {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #b0b0b0;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* box-bd */
+
+.brick-item-l {
+    position: relative;
+    float: left;
+    width: 234px;
+    background: #fff;
+}
+
+.brick-promo-list {
+    margin-left: -14px;
+}
+
+.brick-promo-list .brick-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.brick-item {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+}
+
+.brick-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.brick-list {
+    width: 992px;
+    margin-left: -14px;
+}
+
+.brick-item {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    margin-bottom: 14px;
+    background: #fff;
+}
+
+.brick-item-m-2 {
+    height: 260px;
+    padding: 20px 0;
+}
+
+.brick-item-m .figure-img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+}
+
+.brick-item-m .desc,
+.brick-item-m .title {
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.brick-item-m .title {
+    margin: 0 10px 2px;
+}
+
+.brick-item-m .desc {
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.brick-item-m .price {
+    text-align: center;
+    color: #ff6700;
+}
+
+.brick-item-m .price del {
+    color: #b0b0b0;
+}
+
+.more .tab-list {
+    margin: 0;
+    padding: 16px 0 0;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.home-brick-box .box-hd .more .tab-list .tab-active {
+    display: inline-block;
+    padding: 0;
+    margin: 0 15px;
+    color: #ff6700;
+    /* color: #424242; */
+    border-bottom: 2px solid #ff6700;
+    cursor: pointer;
+}
+
+.home-brick-box .box-hd .more .tab-list li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 15px;
+    /* color: #ff6700; */
+    color: #424242;
+    /* border-bottom: 2px solid #ff6700; */
+    cursor: pointer;
+}
+
+.brick-promo-list .brick-item-m {
+    height: 300px;
+    padding: 0;
+}
+
+.brick-promo-list .brick-item-m li {
+    display: block;
+    width: 234px;
+}
+
+.brick-list .brick-item-s {
+    position: relative;
+    display: block;
+    height: 93px;
+    padding: 50px 0 0 0;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    margin-bottom: 14px;
+    background: #fff;
+}
+
+.brick-item-s .finger-img {
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    width: 80px;
+    height: 80px;
+}
+
+.brick-item-s .title {
+    margin: -10px 110px 5px 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.brick-item-s .price {
+    margin: 0 110px 0 30px;
+    font-size: 12px;
+    color: #ff6700;
+}
+
+.brick-item-s .more {
+    display: block;
+    margin: 0 110px 0 30px;
+    font-size: 18px;
+    color: #333;
+}
+
+.brick-item-s .more .small {
+    display: block;
+    font-size: 12px;
+    color: #757575;
+}
+
+.brick-item-s .finger-more {
+    position: absolute;
+    right: 31px;
+    top: 44px;
+    width: 53px;
+    height: 53px;
+}
+
+
+/* home-video-box */
+
+.home-video-box .video-list {
+    width: 1240px;
+    height: 285px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.home-video-box .video-item {
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+}
+
+.home-video-box .video-item .figure-img {
+    position: relative;
+    width: 296px;
+    height: 180px;
+    margin: 0 0 28px;
+}
+
+.home-video-box .video-item .title {
+    margin: 0 14px 6px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.home-video-box .video-item .desc {
+    height: 18px;
+    margin: 0 14px;
+    font-size: 12px;
+    color: #b0b0b0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

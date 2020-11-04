@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1199149",
+      "name": "users",
+      "font_class": "users",
+      "unicode": "a",
+      "unicode_decimal": 10
+    },
+    {
+      "icon_id": "1367300",
+      "name": "报表 表尾管理",
+      "font_class": "baobiaobiaoweiguanli",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "2570077",
+      "name": "单据",
+      "font_class": "danju-tianchong",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "6085807",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "8236037",
+      "name": "眼睛",
+      "font_class": "yanjing",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "9454431",
+      "name": "账号",
+      "font_class": "zhanghao",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "11891827",
+      "name": "lock",
+      "font_class": "lock",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "13625313",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "13860463",
+      "name": "空间分析",
+      "font_class": "kongjianfenxi",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "14151838",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "15625591",
+      "name": "默认头像",
+      "font_class": "morentouxiangbeifen",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    }
+  ]
+}

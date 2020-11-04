@@ -1,0 +1,782 @@
+/* 公共样式 */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.w234,
+.w978 {
+  float: left; /* w234和w978都实现浮动 */
+}
+.w234 {
+  width: 234px;
+}
+.w978 {
+  width: 992px;
+}
+/* 版心 */
+.container {
+  width: 1226px;
+  margin: 0 auto;
+}
+.topbarBanner a {
+  display: block;
+  width: 100%;
+  height: 120px;
+  background: url(../img/top/topbar-img.jpg) no-repeat 50%;
+  background-size: auto 120px;
+}
+.site-topbar {
+  height: 40px;
+  font-size: 12px;
+  color: #b0b0b0;
+  background: #333;
+}
+.site-topbar a {
+  display: inline-block;
+  color: #b0b0b0;
+  line-height: 40px;
+}
+.site-topbar a:hover {
+  color: #fff;
+}
+.site-topbar span {
+  margin: 0 0.3em;
+  color: #424242;
+  font-family: sans-serif;
+}
+.site-topbar .topbar-cart {
+  width: 120px;
+  height: 40px;
+  margin-left: 15px;
+  background-color: #424242;
+  text-align: center;
+}
+.site-topbar .topbar-cart:hover {
+  color: #ff6700;
+  background-color: #fff;
+}
+.site-topbar .topbar-cart .icon-che {
+  font-size: 20px;
+}
+/* header */
+.site-header {
+  height: 100px;
+}
+.site-header .header-logo {
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin-top: 22px;
+  background: #ff6700;
+}
+.header-logo a {
+  font-size: 0; /* 对如何对logo的下面的文字（搜索引擎时用）有几种方法还不是很清楚 */
+}
+.header-logo img {
+  width: 100%;
+}
+.header-nav {
+  float: left;
+  width: 700px;
+  margin-left: 150px;
+}
+.header-nav .nav-list {
+  padding: 12px 0 0 30px;
+  font-size: 16px;
+}
+.header-nav li {
+  float: left;
+  padding: 26px 10px 38px;
+}
+.header-nav a {
+  color: #333;
+}
+.header-nav a:hover {
+  color: #ff6700;
+}
+.header-search {
+  float: right;
+  position: relative;
+  width: 296px;
+  margin-top: 25px;
+}
+.header-search .search-btn,
+.header-search .search-text {
+  position: absolute;
+  top: 0;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s; /* 经过搜索框时边框颜色缓慢变深 */
+}
+.header-search:hover .search-btn,
+.header-search:hover .search-text {
+  border-color: #b0b0b0;
+}
+.header-search .search-text {
+  right: 31px;
+  width: 245px;
+  height: 48px;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 48px;
+}
+.header-search .search-btn {
+  right: 0;
+  width: 52px;
+  height: 48px;
+  font-size: 24px;
+  background-color: #fff;
+  color: #616161;
+  transition: all 0.2s; /* 经过搜索btn时背景颜色变橙色 */
+}
+.header-search .search-btn:hover {
+  background-color: #ff6700;
+  color: #fff;
+}
+.home-hero-container {
+  margin-bottom: 26px;
+}
+.home-hero-swiper {
+  position: relative;
+  height: 460px;
+  background: url(../img/top/swiper-img1.jpg) no-repeat;
+  background-size: auto 460px;
+}
+.site-category {
+  width: 234px;
+  height: 420px;
+  padding: 20px 0;
+  background-color: rgba(105, 101, 101, 0.6);
+}
+.site-category .category-item {
+  height: 42px;
+  line-height: 42px;
+  padding-left: 30px;
+  color: #fff;
+}
+.site-category .category-item:hover {
+  background-color: #ff6700;
+}
+.site-category .category-item .title {
+  display: block;
+  color: #fff;
+}
+.home-hero-swiper .btn-prev,
+.home-hero-swiper .btn-next {
+  position: absolute;
+  top: 50%;
+  width: 41px;
+  height: 69px;
+  cursor: pointer;
+}
+.home-hero-swiper .btn-prev {
+  left: 234px;
+  background: url(../img/top/icon-slides.png) no-repeat -84px;
+}
+.home-hero-swiper .btn-next {
+  right: 0;
+  background: url(../img/top/icon-slides.png) no-repeat -125.5px;
+}
+.home-hero-swiper .btn-prev:hover {
+  background-position: 0;
+}
+.home-hero-swiper .btn-next:hover {
+  background-position: -41.5px;
+}
+.home-hero-sub {
+  margin-top: 14px;
+  height: 170px;
+}
+.home-channel-list {
+  padding: 3px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #5f5750;
+}
+.home-channel-list li {
+  position: relative;
+  float: left;
+  width: 70px;
+  height: 82px;
+  padding: 0 3px;
+}
+.home-channel-list li:before,
+.home-channel-list li:after {
+  position: absolute; /* 定位两个边框 */
+  content: '';
+  background-color: #665e57;
+}
+.home-channel-list li:before {
+  top: -1px;
+  left: 6px;
+  width: 64px;
+  height: 1px;
+}
+.home-channel-list li:after {
+  top: 6px;
+  left: 0;
+  width: 1px;
+  height: 70px;
+}
+.home-channel-list li a {
+  display: block; /* 要把a的显示模式改成block，要不然设定padding-top没用*/
+  padding-top: 18px;
+  color: #fff;
+  opacity: 0.7; /* 整个a盒子透明显示 */ /* 这里opacity的运用之前没遇到过，要注意 */
+  transition: all 0.2s; /* 经过时不透明 */
+}
+.home-channel-list li:hover a {
+  opacity: 1;
+}
+.home-channel-list img {
+  width: 24px;
+  height: 24px;
+  margin: 0 24px 4px;
+}
+.home-promo-list li {
+  float: left;
+}
+.home-promo-list li:nth-child(1) {
+  margin-left: 14px;
+}
+.home-promo-list li:nth-child(n + 2) {
+  margin-left: 15px;
+}
+.home-promo-list img {
+  display: block;
+  width: 316px;
+  height: 170px;
+}
+.home-main {
+  padding: 4px 0 12px;
+  background-color: #f5f5f5;
+}
+.home-flashsale {
+  margin-bottom: 22px;
+}
+.xm-plain-box .box-hd {
+  height: 58px;
+  position: relative;
+}
+.xm-plain-box .box-hd .title {
+  font-size: 22px;
+  font-weight: 200; /* 标题不加粗 */
+  color: #333;
+  line-height: 58px;
+}
+.home-flashsale .swiper-controls {
+  position: absolute;
+  right: 0; /* 这玩意儿能垂直居中不晓得为什么 */
+  top: 24px;
+}
+.home-flashsale .swiper-flashsale-prev,
+.home-flashsale .swiper-flashsale-next {
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+  padding: 3px 5px;
+  margin-left: -1px; /* 合并左右边框 */
+  border: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 16px;
+  color: #b0b0b0;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.home-flashsale .swiper-flashsale-prev:hover,
+.home-flashsale .swiper-flashsale-next:hover {
+  color: #ff6700;
+}
+.home-flashsale .flashsale-countdown {
+  height: 300px;
+  padding-top: 39px;
+  border-top: 1px solid #e53935;
+  background-color: #f1eded;
+  text-align: center;
+}
+.home-flashsale .flashsale-countdown .round {
+  padding-top: 15px;
+  font-size: 21px;
+  color: #ef3a3b;
+}
+.home-flashsale .flashsale-countdown img {
+  margin: 25px auto;
+}
+.home-flashsale .flashsale-countdown .desc {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+}
+.home-flashsale .flashsale-countdown .countdown {
+  width: 168px; /* 想要设置margin先设宽度，不然继承父亲宽度不能实现左右auto */
+  margin: 28px auto 0;
+}
+.home-flashsale .flashsale-countdown .countdown span {
+  float: left; /* 设置浮动转化成类似行内块 */
+  width: 46px;
+  height: 46px;
+  background-color: #605751;
+  color: #fff;
+  font-size: 24px;
+  line-height: 46px;
+}
+.home-flashsale .flashsale-countdown .countdown i {
+  float: left; /* 设置浮动转化成类似行内块 */
+  width: 15px;
+  height: 46px;
+  color: #605751;
+  font-size: 28px;
+  line-height: 46px;
+}
+.home-flashsale .flashsale-list li {
+  float: left;
+  width: 234px;
+  margin-left: 14px;
+  border-top: 1px solid #000;
+  background-color: #fff;
+  text-align: center;
+}
+.home-flashsale .flashsale-list .rainbow-item-1 {
+  border-top-color: #83c44e;
+}
+.home-flashsale .flashsale-list .rainbow-item-2 {
+  border-top-color: #2196f3;
+}
+.home-flashsale .flashsale-list .rainbow-item-3 {
+  border-top-color: #00c0a5;
+}
+.home-flashsale .flashsale-list .rainbow-item-4 {
+  border-top-color: #ffac13;
+}
+.home-flashsale .flashsale-list li a {
+  display: block;
+  height: 300px;
+  padding-top: 39px;
+}
+.home-flashsale .flashsale-list .thumb {
+  margin-bottom: 22px;
+}
+.home-flashsale .flashsale-list .title {
+  margin: 0 20px 3px; /* 为什么要给左右边距个人理解：为了文字太长时不顶着左边显示，更加美观 */
+  font-size: 14px;
+  font-weight: 400; /* 标题不加粗 */
+  color: #212121;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* css3高级技巧：溢出文本省略号显示 */
+}
+.home-flashsale .flashsale-list .desc {
+  height: 18px;
+  margin: 0 20px 12px; /* 为什么要给左右边距个人理解：为了文字太长时不顶着左边显示，更加美观 */
+  font-size: 12px;
+  color: #b0b0b0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* css3高级技巧：溢出文本省略号显示 */
+}
+.home-flashsale .flashsale-list .price {
+  color: #ff6709;
+}
+.home-flashsale .flashsale-list .price del {
+  color: #b0b0b0;
+}
+.home-banner-box {
+  height: 120px;
+  margin: 22px 0;
+}
+.xm-plain-box .box-hd .more {
+  position: absolute;
+  top: 24px;
+  right: 0;
+}
+.xm-plain-box .box-hd .more .more-link {
+  font-size: 16px;
+  color: #424242;
+  transition: all 0.4s;
+}
+.xm-plain-box .box-hd .more .more-link:hover {
+  color: #ff6700;
+}
+.brick-item {
+  position: relative;
+  float: left;
+  width: 234px;
+  margin: 0 0 14px 14px;
+  background-color: #fff;
+  text-align: center;
+  transition: all 0.2s;
+}
+.brick-item:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* 鼠标经过时产生盒子阴影 */
+  transform: translateY(-2px); /* 鼠标经过时盒子向上移动2px */
+}
+.brick-item-l {
+  height: 614px;
+  margin-left: 0;
+}
+.brick-item-m {
+  height: 246px;
+  padding: 34px 0 20px;
+}
+.brick-promo-list .brick-item-m {
+  height: 300px;
+  padding: 0;
+  margin-left: 0;
+}
+.brick-item-m-2 {
+  height: 260px;
+  padding: 20px 0;
+}
+.brick-item-s {
+  height: 93px;
+  padding-top: 50px;
+  text-align: left;
+}
+.brick-item-s .figure-img {
+  position: absolute;
+  top: 32px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+}
+.brick-item-s .title,
+.brick-item-s .title a {
+  color: #333;
+}
+.brick-item-s .title {
+  margin: -10px 110px 5px 30px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.brick-item-s .price {
+  margin: 0 110px 0 30px;
+  font-size: 12px;
+  color: #ff6700;
+}
+.brick-item-s .figure-more {
+  position: absolute;
+  top: 48px;
+  right: 35px;
+  width: 48px;
+  height: 48px;
+  color: #ff6700;
+}
+.brick-item-s i {
+  font-size: 48px;
+  line-height: 48px;
+}
+.brick-item-s .more {
+  margin: 0 110px 0 30px;
+  font-size: 18px;
+  color: #333;
+}
+.brick-item-s .more small {
+  display: block; /* html5的small标签第一次碰到 */
+  font-size: 12px;
+  color: #757575;
+}
+.brick-item-m-2 .figure-img,
+.brick-item-m-2 .figure-img img {
+  width: 160px;
+  height: 160px;
+}
+.brick-item-m .figure-img {
+  margin: 0 auto 18px;
+}
+.brick-item-m .title {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 400; /* 标题不加粗 */
+  color: #333;
+}
+.brick-item-m .desc,
+.brick-item-m .title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; /* 溢出文字省略号显示 */
+}
+.brick-item-m-2 .title {
+  margin: 0 10px 2px;
+}
+.brick-item-m .desc {
+  height: 18px;
+  margin: 0 10px 10px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.brick-item-m .price {
+  margin: 0 10px 10px;
+  color: #ff6700;
+}
+.brick-item-m-2 .price {
+  margin: 0 10px 14px;
+}
+.home-brick-box .box-hd .more .tab-list {
+  font-size: 16px;
+  height: 26px;
+}
+.home-brick-box .box-hd .more .tab-list li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.home-brick-box .box-hd .more .tab-list li.tab-active,
+.home-brick-box .box-hd .more .tab-list li:hover {
+  border-bottom: 2px solid #ff6700;
+  color: #ff6700;
+}
+.home-video-box .video-item {
+  position: relative;
+  float: left;
+  width: 296px;
+  height: 285px;
+  margin: 0 0 14px 14px;
+  text-align: center;
+  background: #fff;
+  transition: all 0.2s linear;
+}
+.home-video-box .video-item:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* 鼠标经过时产生盒子阴影 */
+  transform: translateY(-2px); /* 鼠标经过时盒子向上移动2px */
+}
+.home-video-box .video-item:first-child {
+  margin-left: 0;
+}
+.home-video-box .video-item .figure-img {
+  position: relative;
+  width: 296px;
+  height: 180px;
+  margin-bottom: 28px;
+}
+.home-video-box .video-item .play {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  width: 26px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 12px; /* css3圆角边框 */
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  transition: all 0.2s;
+}
+.home-video-box .video-item .play i {
+  font-size: 20px;
+  line-height: 20px;
+}
+.home-video-box .video-item .play:hover {
+  border-color: #ff6700;
+  background-color: #ff6700;
+}
+.home-video-box .video-item .title {
+  margin: 0 14px 6px;
+  font-size: 14px;
+  font-weight: 400; /* 标题不加粗 */
+  text-align: center;
+  color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; /* 溢出文字省略号显示 */
+}
+.home-video-box .video-item .desc {
+  height: 18px;
+  margin: 0 14px;
+  font-size: 12px;
+  color: #b0b0b0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; /* 溢出文字省略号显示 */
+}
+/* footer */
+.site-footer .footer-service {
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.site-footer .footer-service .list-service li {
+  float: left;
+  width: 19.8%;
+  height: 25px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+.site-footer .footer-service .list-service a {
+  color: #616161;
+  transition: all 0.2s; /* 经过时文字缓慢变橙色 */
+}
+.site-footer .footer-service .list-service a:hover {
+  color: #ff6700;
+}
+.site-footer .footer-service .list-service li:nth-child(n + 2) {
+  border-left: 1px solid #e0e0e0;
+}
+.site-footer .list-service em[class*='iconfont'] {
+  margin-right: 3px;
+  font-size: 24px;
+  line-height: 24px;
+  vertical-align: -3px;
+}
+.site-footer .footer-links {
+  padding: 40px 0;
+}
+.site-footer .footer-links .col-links {
+  float: left;
+  width: 162px;
+}
+.site-footer .footer-links .col-links dt {
+  margin-bottom: 26px;
+  font-size: 14px;
+  color: #424242;
+}
+.site-footer .footer-links .col-links dd {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.site-footer .footer-links .col-links dd a {
+  color: #757575;
+}
+.site-footer .footer-links .col-links dd a:hover {
+  color: #ff6700;
+}
+.site-footer .footer-links .col-contact {
+  float: left;
+  width: 251px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+  font-size: 12px;
+}
+.site-footer .footer-links .col-contact p {
+  margin-bottom: 5px;
+}
+.site-footer .footer-links .col-contact .phone {
+  font-size: 22px;
+  color: #ff6700;
+}
+.site-footer .footer-links .col-contact .contact-btn {
+  display: inline-block; /* text-align对块级元素不管用，我才知道555 */
+  width: 118px;
+  height: 28px;
+  border: 1px solid #ff6700;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 28px;
+  color: #ff6700;
+  transition: all 0.4s;
+}
+.site-footer .footer-links .col-contact .contact-btn:hover {
+  background-color: #ff6700;
+  color: #fff;
+}
+.site-footer .footer-links .col-contact .follow a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 6px;
+  font-size: 24px;
+  color: #424242;
+  vertical-align: -4px; /* 当对一些字体图标的对齐方式用vertical-align: middle;不行时，可以用数字 */
+}
+.site-footer .footer-links .col-contact .follow a:hover {
+  color: #ff6700;
+}
+.site-info {
+  width: 100%;
+  padding: 30px 0;
+  font-size: 12px;
+  background-color: #fafafa;
+}
+.site-info .container {
+  position: relative;
+}
+.site-info .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 57px;
+  background: url(../img/footer/logo-footer.png);
+}
+.site-info .info-text {
+  padding-left: 67px;
+  color: #b0b0b0;
+}
+.site-info .info-text p {
+  line-height: 18px;
+}
+.site-info .info-text a {
+  color: #b0b0b0;
+}
+.site-info .info-text a:hover {
+  color: #ff6700;
+}
+.site-info .info-text .sites a {
+  color: #757575;
+}
+.site-info .info-text .sites a:hover {
+  /* 原来这玩意儿（伪类）也有优先级，还不能统一给，哭了 */
+  color: #ff6700;
+}
+.site-info .info-links {
+  padding-left: 67px;
+  margin-top: 4px;
+}
+.site-info .info-links a {
+  vertical-align: bottom; /* 这里用了一个vertical-align实现效果，可能有点投机取巧？ */
+}
+.site-info .info-links img {
+  height: 28px;
+}
+.site-info .info-links a:last-child img {
+  height: 40px;
+}
+.site-info .slogan {
+  width: 100%;
+  height: 19px;
+  margin: 30px auto 0;
+  background: url(../img/footer/slogan2020.png) no-repeat center; /* 这里折腾了好久，后来写了个center就好了。对css背景postion还要再钻 */
+  font-size: 0; /* 对网页关键字（搜索引擎）的隐藏还不是很懂，还得再钻 */
+}
+.home-tool-bar {
+  position: fixed;
+  top: 100px;
+  right: 0;
+}
+.home-tool-bar .item {
+  display: block;
+  width: 82px;
+  height: 90px;
+  margin-top: -1px; /* 实现上下边框合并 */
+  background-color: #fff;
+  border: 1px solid #f5f5f5;
+  color: #757575;
+  text-align: center;
+  transition: all 0.3s;
+}
+.home-tool-bar .item:hover {
+  color: #ff6700;
+}
+.home-tool-bar #slider-top {
+  margin-top: 14px;
+}
+/* .home-tool-bar .item:last-child {
+    margin-top: 14px;
+} */ /* 咱也不懂这个为什么不可以 */
+.home-tool-bar .item em[class*='iconfont'] {
+  display: block;
+  margin: 7px auto; /* 如果是行内元素的话设置左右边距auto不管用 */
+  font-size: 30px;
+}
+/* 有些布局还不是很懂，可能写的太少。这次写代码没有很注意页面中哪块布局用哪种方式（a>img，ul>li>a什么的），主要在想一些小的东西了 */
+/* .home-channel-list模块要再想想呐 */

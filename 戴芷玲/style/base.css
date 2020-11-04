@@ -1,0 +1,65 @@
+/* 清除默认元素的内外边距 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 让所有斜体不倾斜 */
+
+em,
+i {
+    font-style: normal;
+}
+
+
+/* 去掉列表前面的小点 */
+
+li {
+    list-style: none;
+}
+
+
+/* 图片没有边框 去掉图片底侧的空白缝隙 让图片垂直居中 */
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+
+/* 让button 按钮变成小手 */
+
+button {
+    cursor: pointer;
+}
+
+
+/* 取消链接的下划线 */
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    /* 取消轮廓线 */
+    outline: none;
+}
+
+body {
+    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+
+/*清除浮动*/
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}

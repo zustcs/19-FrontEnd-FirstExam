@@ -1,0 +1,550 @@
+/* 声明字体图标 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+        url('iconfont.woff2') format('woff2'),
+        url('iconfont.woff') format('woff'),
+        url('iconfont.ttf') format('truetype'),
+        url('iconfont.svg#iconfont') format('svg');
+  }
+/* 用到字体图标部分 */
+/* .shopcar,
+.search button,
+.nav,
+.mod_service,
+.mod_help,
+.fixed,
+.arrow-right  */
+* {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* 版心 */
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+a:hover {
+    color: rgb(255,103,0);;
+}
+/* 头部广告 */
+.top_ad {
+    height: 120px;
+    background: url(../img/top/topbar-img.jpg) no-repeat;
+    background-position: center;
+}
+/* 导航栏部分 */
+.shortcut {
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background-color: rgb(51, 51, 51);
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.links {
+    float: right;
+    color: #424242;
+}
+.links a {
+    font-size: 12px;
+    margin: 0 6.5px;
+    padding: 10px auto;
+    color: rgb(176, 176, 176);
+}
+.links a:hover {
+    color: #fff;
+}
+/* 购物车部分 */
+.shopcar {
+    float: right;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background-color: #424242;
+    margin-left: 20px;
+}
+.shopcar::before {
+    content: '\e63b';
+    font-size: 22px;
+    vertical-align: middle;
+    margin-right: 1px;
+    color: #b0b0b0;
+}
+.shopcar:hover {
+    background-color: #fff;
+    color: rgb(255,103,0);
+}
+/* 图标变色(待处理) */
+.shopcar::before:hover {
+    color: rgb(255,103,0);
+}
+/* 小米图标 */
+.header {
+   margin: 22px auto;
+   height: 55px;
+}
+.header .w .xiaomi {
+    float: left;
+    width: 55px;
+    height: 55px; 
+    background: url(../img/top/change.png) no-repeat;
+    background-position: -52px;
+}
+.header .w .xiaomi:hover {
+    transition: all 0.2s ease-in-out;
+    background: url(../img/top/change.png) no-repeat;
+}
+.header .w .hotwords {
+    float: left;
+    height: 55px;
+    line-height: 55px;
+    font-size: 16px;
+    margin-left: 180px;
+}
+.header .hotwords a {
+    float: left;
+    padding: 0 10px;
+    color: #333;
+}
+.hotwords a:hover {
+    color: rgb(255,103,0);
+}
+/* 搜索框 */
+.header .search {
+    float: right;
+    margin-top: 3px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+}
+button,
+input {
+    border: 0;
+    outline: none;
+}
+.search input {
+    float: left;
+    width: 245px;
+    height: 48px;
+    padding: 0 10px;
+}
+.search button {
+    float: left;
+    width: 52px;
+    height: 48px;
+    font-size: 16px;
+    background-color: #fff;
+    border-left: 1px solid #e0e0e0;
+}
+.search button::after {
+    content: '\e63c';
+    font-size: 22px;
+    font-weight: 700;
+    vertical-align: middle;
+    margin-right: 1px;
+    color: rgb(97, 97, 97);
+}
+/* nav部分 */
+.nav .w {
+    width: 1226px;
+    height: 460px;
+    background: url(../img/top/swiper-img1.jpg) no-repeat;
+    background-size: 100%;
+}
+.nav .title {
+    float: left;
+    width: 234px;
+    height: 460px;
+    background: rgba(105,101,101,.6);
+    /* background-color: pink; */
+    padding-top: 20px;
+}
+.nav .box {
+    float: left;
+    position: relative;
+    width: 992px;
+    height: 460px;
+    /* background-color: skyblue; */
+    padding-top: 20px;
+}
+.nav .title ul li {
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 30px;
+}
+.nav .title ul li::after {
+    position: absolute;
+    content: '\e689';
+    right: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+.nav .title ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+.nav .title ul li:hover {
+    background-color: rgb(255,103,0);
+}
+.nav .title ul li:hover a {
+    color: #fff;
+}
+.box .prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -35px;
+    width: 40px;
+    height: 70px;
+    text-decoration: none;
+    color: rgb(182,179,181);
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+}
+.prev::after {
+    content: '\e686';
+    font-size: 30px;
+    line-height: 70px;
+}
+.box .next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -35px;
+    width: 40px;
+    height: 70px;
+    color: rgb(182,179,181);
+    border-radius: 4px 0 0 4px;
+    text-align: center;
+}
+.next::after {
+    content: '\e689';
+    font-size: 30px;
+    line-height: 70px;
+}
+/* 鼠标经过 */
+.box .prev:hover {
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+.box .next:hover {
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+/* 盒子组 */
+.pic .w{
+    width: 1226px;
+    height: 170px;
+    margin-top: 14px;
+    margin-bottom: 28px;
+}
+.span1 {
+    float: left;
+    width: 234px;
+    height: 170px;
+    padding: 3px;
+    background-color: #5f5750;
+}
+.span1 ul li {
+    position: relative;
+    float: left;
+    width: 76px;
+    height: 82px;
+    padding: 0 3px;
+}
+.span1 ul li::before {
+    top: -1px;
+    left: 6px;
+    width: 64px;
+    height: 1px;
+}
+.span1 ul li::after {
+    top: 6px;
+    left: 0;
+    width: 1px;
+    height: 70px;
+}
+.span1 ul li::before,
+.span1 ul li::after {
+    position: absolute;
+    content: "";
+    background: #665e57;
+}
+.span1 a {
+    display: block;
+    padding-top: 18px;
+    text-overflow: ellipsis;
+    text-align: center;
+    color: #fff;
+    opacity: .7;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+}
+/* 鼠标经过 */
+.span1 a:hover {
+    color: #fff;
+    opacity: 1;
+}
+.span1 img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto 4px;
+}
+img {
+    border: 0;
+}
+/* 三张图片部分 */
+.span2 {
+    float: right;
+    width: 992px;
+    height: 170px;
+}
+.span2 img {
+    width: 100%;
+}
+.span2 ul li {
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 15px;
+}
+.span2 ul li:first-child {
+    margin-left: 14px;
+}
+/* 首页专有模块 */
+
+/* 底部 */
+.footer {
+    height: 415px;
+    /* background-color: #ffffff; */
+}
+/* service部分 */
+.mod_service {
+    height: 80px;
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.mod_service ul li {
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.mod_service ul li:first-child {
+    border: 0;
+}
+em {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.mod_service ul li .icon::before {
+    content: '\e74b';
+    font-size: 26px;
+}
+.mod_service ul li .icon1::before {
+    content: '\f0236';
+    font-size: 26px;
+}
+.mod_service ul li .icon2::before {
+    content: '\e6a5';
+    font-size: 26px;
+}
+.mod_service ul li .icon3::before {
+    content: '\e6f9';
+    font-size: 26px;
+}
+.mod_service ul li .icon4::before {
+    content: '\e758';
+    font-size: 26px;
+}
+/* help部分 */
+.mod_help {
+    height: 252px;
+    padding: 40px 0;
+}
+.mod_help dl {
+    float: left;
+    width: 160px;
+}
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+.mod_help dl dt {
+    font-size: 14px;
+    height: 17px;
+    margin-bottom: 26px;
+    color: #424242;
+}
+.mod_help dl dd {
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+.mod_help .contact {
+    float: right;
+    width: 252px;
+    text-align: center;
+    color: #616161;
+    border-left: 1px solid #e0e0e0;
+}
+.mod_help .contact .phone {
+    font-size: 22px;
+    color: #ff6700;
+    margin-bottom: 5px;
+}
+.mod_help .contact p {
+    margin-bottom: 5px;
+}
+.mod_help .contact .btn {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+}
+.mod_help .contact em::before {
+    content: '\e61e';
+    font-size: 16px;
+}
+.mod_help .contact .follow {
+    width: 251px;
+    height: 21px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+.mod_help .contact .follow a {
+
+    margin-left: 6px;
+}
+.mod_help .contact a.xl::after {
+    content: '\e620';
+    font-size: 22px;
+    vertical-align: middle;
+}
+.mod_help .contact a.vx::after {
+    content: '\e610';
+    font-size: 22px;
+    vertical-align: middle;
+}
+/* copyright部分 */
+/* 主体部分 */
+.mod_copyright {
+    position: relative;
+    height: 247px;
+    padding: 30px 0;
+}
+/* 小米图标 */
+.mod_copyright .mi_logo {
+    float: left;
+    margin-right: 10px;
+}
+/* 链接 */
+.mod_copyright .links {
+    float: left;
+    color: #757575;
+}
+.mod_copyright .links a {
+    color: #757575;
+}
+.mod_copyright .links a:first-child {
+    margin-left: 0;
+}
+.mod_copyright .copyright {
+    float: left;
+    width: 1159px;
+    line-height: 18px;
+    color: #b0b0b0;
+}
+.copyright a {
+    color: #b0b0b0;
+    margin: 0 3px;
+}
+.mod_copyright a:hover {
+    color: #ff6700;
+}
+.mi_img {
+    float: left;
+    display: block;
+    height: 28px;
+    padding-left: 67px;
+    margin: 4px 0 15px;
+}
+.mi_img img {
+    float: left;
+    height: 28px;
+    margin-right: 3px;
+}
+/* 底部字 */
+.footer .slogan {
+    position: absolute;
+    width: 1226px;
+    bottom: 30px;
+    text-align: center;
+}
+/* 灰色背景 */
+.footer .g {
+    /* width: 1423px; */
+    height: 247px;
+    background-color: #fafafa;
+}
+/* 侧边栏 */
+.fixed {
+    position: fixed;
+    left: 50%;
+    bottom: 100px;
+    margin-left: 613px;
+    background-color: #fff;
+    text-align: center;
+}
+.fixed a {
+    display: block;
+    width: 25px;
+    height: 42px;
+    margin-top: -1px;
+    border: 1px solid #f5f5f5;
+
+}
+.fixed .item {
+    font-size: 20px;
+    color: #757575;
+    opacity: .7;
+    text-align: center;
+    padding: 5px 0;
+}
+.fixed .item:hover {
+    color: #ff6700;
+    transition: opacity .3s;
+}
+.fixed .item1::before {
+    content: '\e678';
+}
+.fixed .item2::before {
+    content: '\e682';
+}
+.fixed .item3::before {
+    content: '\e74b';
+}
+.fixed .item4::before {
+    content: '\e625';
+    font-size: 16px;
+}
+.fixed .item5::before {
+    content: '\e63b';
+}
